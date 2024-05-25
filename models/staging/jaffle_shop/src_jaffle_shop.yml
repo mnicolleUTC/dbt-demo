@@ -6,7 +6,8 @@ sources:
     database: raw
     schema: jaffle_shop
     tables:
-      - name: customers
+      - name: customers # Name used in jinja injection {{}}
+        identifier: customers # Name used in the dataWarehouse
         description: Raw customers data.
         columns:
           - name: id
@@ -15,7 +16,8 @@ sources:
               - unique
               - not_null
 
-      - name: orders
+      - name: orders # Name used in jinja injection {{}}
+        identifier: customers # Name used in the dataWarehouse
         description: Raw orders data.
         columns:
           - name: id
