@@ -1,7 +1,7 @@
 # Cloning the Repository 😊
 
-This guide provides instructions on how to clone this repository : 
-`https://github.com/mnicolleUTC/dbt-demo.git`  
+This guide provides instructions on how to clone this repository :
+`https://github.com/mnicolleUTC/dbt-demo.git`
 It includes steps to verify if Git is installed on your system, how to install Git for Windows and macOS users, and then how to clone the repository.
 
 ## Verifying Git Installation 🧐
@@ -10,7 +10,7 @@ Before cloning the repository, ensure that Git is installed on your system.
 
 1. Open Command Prompt (for Windows 🪟) or Terminal (for macOS 🍎).
 2. Type `git --version` and press Enter.
-3. If Git is installed, you will see the version number like this : `git version 2.42.0`.  
+3. If Git is installed, you will see the version number like this : `git version 2.42.0`.
 If not, follow the installation instructions below. 🔄
 
 ## Installing Git 🛠️
@@ -22,12 +22,12 @@ If not, follow the installation instructions below. 🔄
 4. Verify your installation by typing `git --version` in Command Prompt. ✅
 
 ### On macOS 🍎
-1. You can install Git using Homebrew. To verify if Homebrew is installed, you can type `brew --version`  
-  If you don't have Homebrew, install it by running in Terminal the following command:  
-  `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`  
-  After installing Homebrew, add it to your PATH environment variable by running these commands:  
-  `echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile`  
-  `echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zprofile` (only if you use zsh)  
+1. You can install Git using Homebrew. To verify if Homebrew is installed, you can type `brew --version`
+  If you don't have Homebrew, install it by running in Terminal the following command:
+  `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+  After installing Homebrew, add it to your PATH environment variable by running these commands:
+  `echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile`
+  `echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zprofile` (only if you use zsh)
   Finally restart your terminal.
 2. Install Git by running `brew install git` in the new Terminal. 🍺
 3. After the installation completes, verify it by typing `git --version` in Terminal. ✅
